@@ -1,0 +1,26 @@
+.body {
+	position: relative;
+	margin: 0 auto;
+	height: 1022px;
+	width: 1903px;
+	background-position-y: bottom;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-image: url(img/image3.png);
+	background-size: cover;
+}
+
+.title {
+	margin: 0;
+	width: 297px;
+	height: 48px;
+
+	position: absolute;
+	left: 1430px;
+	top: 935px;
+
+	text-align: right;
+	line-height: 24px;
+	color: rgba(31, 32, 65, 0.75);
+
+}

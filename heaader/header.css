@@ -1,0 +1,123 @@
+body {
+	width: 100%;		
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.header {
+	height: 70px;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+
+.header__container {
+	position: relative;
+	margin: 0 auto;
+	width: 1440px;
+}
+
+.header__logo1 {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	left: 140px;
+	top: 15px;
+}
+
+.header__logo2 {
+	position: absolute;
+	width: 11.76px;
+	height: 11.76px;
+	left: 149.41px;
+	top: 30.29px;
+}
+
+.header__logo3 {
+	position: absolute;
+	width: 9.12px;
+	height: 5.91px;
+	left: 161.47px;
+	top: 30.29px;
+}
+
+.header__TOXIN {
+	position: absolute;
+	width: 53.19px;
+	height: 12.95px;
+	left: 192.5px;
+	top: 28.33px;
+}
+
+.header__nav {
+	display: flex;
+	justify-content: space-between;
+	width: 446px;
+	position: absolute;
+	left: 531px;
+	top: 26px;
+}
+
+.header__item {
+	text-decoration: none;
+	color: rgba(31, 32, 65, 0.5); /* Dark 50% */
+	transition: 0.3s;
+}
+
+.has-submenu:after {
+	content: "";
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	margin-left: 9px;
+	margin-bottom: -2px;
+	border: 2px solid rgba(31, 32, 65, 0.5);
+	border-width: 0 2px 2px 0;
+	transform: translateY(-50%) rotate(46.8deg);
+	box-sizing: border-box;
+}
+
+.header__btn {
+	position: absolute;
+	top: 18px;
+	display: inline-block;
+	padding-top: 9px;
+	padding-bottom: 10px;
+
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+
+	border: solid 2px transparent;
+	border-radius: 22px;
+	background-origin: border-box;
+	background-clip: padding-box, border-box;
+	-webkit-background-clip: padding-box, border-box;
+	transition: 0.3s;
+}
+
+.header__login {
+	width: 87px;
+	left: 997px;
+	background-image: linear-gradient(white, white), linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+	color: #BC9CFF;
+}
+
+.header__register {
+	width: 196px;
+	left: 1104px;
+	background-image: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%), linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+	color: #FFFFFF;
+}
+
+.header a:hover {
+	opacity: 0.6;
+}
+
+
+
+
+
