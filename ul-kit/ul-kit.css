@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;515;700&display=swap');
+
+body {
+	position: relative;
+	margin: 0;
+	padding: 145px 0 0 150px;
+}
+
+/*HEADER*/
+
+.header__logo {
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	height: 42px;
+	width: 42px;
+	border: 3px solid #C7C7CF;
+	border-radius: 50%;
+}
+
+.header__vector-1 {
+	position: absolute;
+	left: 8.29px;
+	top: 15.35px;
+	width: 14.12px;
+	height: 14.12px;
+}
+
+.header__vector-2 {
+	position: absolute;
+	left: 22.77px;
+	top: 15.35px;
+	width: 10.94px;
+	height: 7.09px;
+}
+
+
+/*MAIN*/
+
+.main {
+	display: flex;
+}
+
+.container-box__color-box {
+	width: 70px;
+	height: 70px;
+	border-radius: 6px;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.dark100 {
+	background: #1F2041;
+}
+.dark75 {
+	background: #575871;
+}
+.dark50 {
+	background: #8F8FA0;
+}
+.dark25 {
+	background: #C7C7CF;
+}
+.dark5 {
+	background: #F4F4F5;
+}
+.purple {
+	background: #BC9CFF;
+}
+.green {
+	background: #6FCF97;
+}
+
+.color-name__title {
+	font-family: 'Quicksand';
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 29px;
+	text-align: left;
+	color: #1F2041;
+	height: 70px;
+	padding: 6px 0 0 40px;
+	margin-bottom: 14px;
+}
+
+span {
+	font-weight: 300;
+}
+
+.font-size {
+	font-family: Montserrat;
+	color: #C7C7CF;
+}
+
+.font-size__title-first-lvl {
+	position: absolute;
+	left: 854px;
+	top: 145px;
+	font-size: 24px;
+}
+.font-size__title-second-lvl {
+	position: absolute;
+	left: 856px;
+	top: 255px;
+	font-size: 19px;
+}
+.font-size__title-third-lvl {
+	position: absolute;
+	left: 866px;
+	top: 353px;
+	font-size: 12px;
+}
+.font-size__body-text {
+	position: absolute;
+	left: 846px;
+	top: 418px;
+	font-size: 14px;
+}
+
+.description {
+	font-family: 'Quicksand';
+	color: #1F2041;
+	font-weight: bold;
+}
+
+.description__first-lvl {
+	font-size: 24px;
+	line-height: 30px;
+
+	position: absolute;
+	left: 913px;
+	top: 145px;
+}
+
+.description__second-lvl {
+	font-size: 19px;
+	line-height: 24px;
+
+	position: absolute;
+	left: 913px;
+	top: 255px;
+}
+
+.description__third-lvl {
+	font-family: Montserrat;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+
+	position: absolute;
+	left: 913px;
+	top: 353px;
+}
+
+.description__body-text {
+	font-family: Montserrat;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+	color: #575871;
+
+	position: absolute;
+	left: 913px;
+	top: 418px;
+}
